@@ -486,9 +486,9 @@ public class Mastermind extends javax.swing.JFrame {
     }
     if (attempts == totalguesses) {
         if (mode == 1 || mode == 2 || mode == 3) {
-        txtOutput.setText("YOU LOSE! The code was (in order of numbers down the line of colors on your side) " + inputOne + " "  + inputTwo + " "  + inputThree + " " + inputFour + "YOU CAN LEAVE NOW! CLICK LEAVE");    
+        txtOutput.setText("YOU LOSE! The code was (in order of numbers down the line of colors on your side) " + colorOne + " "  + colorTwo + " "  + colorThree + " " + colorFour + "YOU CAN LEAVE NOW! CLICK LEAVE");    
         } else if (mode == 4) {
-           txtOutput.setText("YOU LOSE! The code was (in order of numbers down the line of colors on your side) " + inputOne + " "  + inputTwo + " "  + inputThree + " " + inputFour + " " + inputFive + " " + inputSix + "YOU CAN LEAVE NOW! CLICK LEAVE"); 
+           txtOutput.setText("YOU LOSE! The code was (in order of numbers down the line of colors on your side) " + colorOne + " "  + colorTwo + " "  + colorThree + " " + colorFour + " " + colorFive + " " + colorSix + "YOU CAN LEAVE NOW! CLICK LEAVE"); 
         }
         
     }
